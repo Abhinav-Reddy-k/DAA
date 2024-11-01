@@ -2,7 +2,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
 
-def visualize_lobster_graph(graph, labels):
+def visualize_lobster_graph(graph, labels, graph_name):
     """
     Visualize the lobster graph using NetworkX and Matplotlib with improved aesthetics
     and better label positioning.
@@ -91,7 +91,7 @@ def visualize_lobster_graph(graph, labels):
                  color='#FF4444')
 
     # Improve overall layout
-    plt.title("Lobster Graph Visualization",
+    plt.title(graph_name,
               pad=20,
               fontsize=14,
               fontweight='bold')

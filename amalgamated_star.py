@@ -61,6 +61,6 @@ else:
 
 # Step 3: Visualize the lobster graph
 if vertex_labels:
-    visualize_lobster_graph(graph, vertex_labels)
+    visualize_lobster_graph(graph, vertex_labels, 'Amalgamated Star')
 else:
     print("No valid labeling found.")

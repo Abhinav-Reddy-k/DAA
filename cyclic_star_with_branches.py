@@ -45,7 +45,7 @@ def construct_cyclic_star_with_branches(n):
 
 
 # Example Usage:
-n = 8     # Number of vertices connected to the center
+n = 5     # Number of vertices connected to the center
 graph = construct_cyclic_star_with_branches(n)
 
 # Print the adjacency list of the graph
@@ -62,6 +62,6 @@ else:
 
 # Step 3: Visualize the lobster graph
 if vertex_labels:
-    visualize_lobster_graph(graph, vertex_labels)
+    visualize_lobster_graph(graph, vertex_labels, 'Cyclic Star with Branches')
 else:
     print("No valid labeling found.")

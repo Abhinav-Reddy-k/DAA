@@ -54,8 +54,8 @@ def construct_homogeneous_lobster_plus1(n, p):
 
 
 # Example usage:
-n = 3  # Number of vertices in the path graph
-p = 3  # Number of vertices in each star graph (including the central vertex)
+n = 5  # Number of vertices in the path graph
+p = 4  # Number of vertices in each star graph (including the central vertex)
 
 lobster_plus_one_graph = construct_homogeneous_lobster_plus1(n, p)
 print(lobster_plus_one_graph.keys())
@@ -72,6 +72,6 @@ else:
 
 # Step 3: Visualize the lobster graph
 if vertex_labels:
-    visualize_lobster_graph(lobster_plus_one_graph, vertex_labels)
+    visualize_lobster_graph(lobster_plus_one_graph, vertex_labels, 'Homogeneous Lobster+1')
 else:
     print("No valid labeling found.")

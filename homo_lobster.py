@@ -73,6 +73,6 @@ else:
 
 # Step 3: Visualize the lobster graph
 if vertex_labels:
-    visualize_lobster_graph(lobster_graph, vertex_labels)
+    visualize_lobster_graph(lobster_graph, vertex_labels, 'Lobster Graph')
 else:
     print("No valid labeling found.")
