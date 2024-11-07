@@ -77,6 +77,18 @@ git clone https://github.com/Abhinav-Reddy-k/DAA.git
 cd DAA
 ```
 
+To install the required Python packages, use the following steps:
+
+1. Ensure you have Python and `pip` installed. You can check this by running:
+   ```bash
+   python --version
+   pip --version
+    ```
+2. Install the required packages using the following command:
+3. ```bash
+   pip install -r requirements.txt
+   ```
+
 Go to each file of a particular graph, adjust the parameters and just run the code.
 
 ## Images
